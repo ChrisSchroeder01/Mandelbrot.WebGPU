@@ -1,9 +1,9 @@
 # Mandelbrot.WebGPU
-A WebGPU-based visualization of the Mandelbrot set. This program allows users to explore the fractal interactively with mouse-based controls.
+A WebGPU-based visualization of the Mandelbrot set. This program allows users to explore the Mandelbrot set with mouse-based controls.
 
 ## Features
 - Interactive Panning: Click and drag the canvas to move around the Mandelbrot set.
-- Zooming: Use the mouse wheel to zoom in and out of the fractal.
+- Zooming: Use the mouse wheel to zoom in and out of the Mandelbrot.
 
 ## Limitations
 Due to WebGPU's 32-bit floating-point precision, you cannot zoom infinitely into the Mandelbrot set. The precision constraints cause details to become less accurate at extreme zoom levels.
